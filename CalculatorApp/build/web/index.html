@@ -1,0 +1,39 @@
+
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>User input</h1>
+        <form action="MenuServlet.do" method="POST">
+            <table>
+
+                <tr>
+                    <td>Enter 1st number:</td>
+                    <td><input type="text" name="num1" required=""></td>
+                </tr>
+                <tr>
+                    <td>Enter 2nd number:</td>
+                    <td><input type="text"  name="num2" required=""></td>
+                </tr>
+                <tr>
+                    <td>Select operator:</td>
+                    <td>
+                        <select name="operator">
+                            <option value="+">Add</option>
+                            <option value="-">Subtract</option>
+                            <option value="*">Product</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit"  value="SUBMIT"></td>
+                </tr>
+            </table>
+
+        </form>
+    </body>
+</html>
